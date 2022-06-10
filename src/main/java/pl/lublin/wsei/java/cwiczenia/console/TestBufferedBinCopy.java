@@ -12,6 +12,7 @@ public class TestBufferedBinCopy {
 
         long startTime = System.nanoTime();
 
+
         try {
             in = new BufferedInputStream(new FileInputStream("sample_1920x1280.tiff"));
             out = new BufferedOutputStream(new FileOutputStream("img_copy.tiff"));
